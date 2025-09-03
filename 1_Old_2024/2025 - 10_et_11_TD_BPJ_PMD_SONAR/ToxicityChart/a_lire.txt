@@ -1,0 +1,4 @@
+1°) Lancer "1_checkstyle.bat" pour générer le fichier résultant de la commande CheckStyle : toxity_checkstyle_output.xml
+
+2°) Lancer "2a_Toxicity.xls" (activer le contenu), et cliquer sur le bouton "Open XML", et sélectionner le fichier "toxity_checkstyle_output.xml" 
+(remarque : variante en lançant "2b_toxicity.html")

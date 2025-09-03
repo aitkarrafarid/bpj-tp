@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.1">
+<file name="..\src\tp\pmd\Arbre.java">
+<error line="34" column="4" severity="warning" message="La méthode ou le constructeur a plus de 6 paramètres." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="47" column="4" severity="warning" message="La méthode contient 54 lignes alors que le maximum autorisé est de 30." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="47" column="16" severity="warning" message="La méthode ou le constructeur a plus de 6 paramètres." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="103" column="4" severity="warning" message="La complexité cyclomatique de la classe est de 13 alors que le maximum autorisé est de 10." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="103" column="4" severity="warning" message="La méthode contient 114 lignes alors que le maximum autorisé est de 30." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="238" column="4" severity="warning" message="La complexité cyclomatique de la classe est de 24 alors que le maximum autorisé est de 10." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="238" column="4" severity="warning" message="La méthode contient 174 lignes alors que le maximum autorisé est de 30." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="..\src\tp\pmd\Fenetre.java">
+</file>
+<file name="..\src\tp\pmd\Grille.java">
+</file>
+<file name="..\src\tp\pmd\Planete.java">
+<error line="37" column="4" severity="warning" message="La méthode contient 46 lignes alors que le maximum autorisé est de 30." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="..\src\tp\pmd\Vecteur.java">
+</file>
+</checkstyle>

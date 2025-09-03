@@ -1,0 +1,117 @@
+
+src/main/java/tp/pmd/Arbre.java:5	The class 'Arbre' has a Cyclomatic Complexity of 7 (Highest = 24).
+src/main/java/tp/pmd/Arbre.java:9	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Arbre.java:9	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Arbre.java:10	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Arbre.java:10	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Arbre.java:11	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Arbre.java:11	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Arbre.java:12	Avoid variables with short names like x
+src/main/java/tp/pmd/Arbre.java:12	Avoid variables with short names like y
+src/main/java/tp/pmd/Arbre.java:12	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Arbre.java:12	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Arbre.java:12	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Arbre.java:13	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Arbre.java:14	Avoid variables with short names like ne
+src/main/java/tp/pmd/Arbre.java:14	Avoid variables with short names like no
+src/main/java/tp/pmd/Arbre.java:14	Avoid variables with short names like se
+src/main/java/tp/pmd/Arbre.java:18	Parameter 'x' is not assigned and could be declared final
+src/main/java/tp/pmd/Arbre.java:18	Parameter 'y' is not assigned and could be declared final
+src/main/java/tp/pmd/Arbre.java:25	Parameter 'planete' is not assigned and could be declared final
+src/main/java/tp/pmd/Arbre.java:25	Parameter 'x' is not assigned and could be declared final
+src/main/java/tp/pmd/Arbre.java:25	Parameter 'y' is not assigned and could be declared final
+src/main/java/tp/pmd/Arbre.java:50	Local variable 'listePlanete' could be declared final
+src/main/java/tp/pmd/Arbre.java:52	Avoid instantiating new objects inside loops
+src/main/java/tp/pmd/Arbre.java:52	Local variable 'planete' could be declared final
+src/main/java/tp/pmd/Arbre.java:58	Avoid instantiating new objects inside loops
+src/main/java/tp/pmd/Arbre.java:58	Local variable 'planete' could be declared final
+src/main/java/tp/pmd/Arbre.java:63	Avoid instantiating new objects inside loops
+src/main/java/tp/pmd/Arbre.java:63	Local variable 'planete' could be declared final
+src/main/java/tp/pmd/Arbre.java:71	Local variable 'xAlea' could be declared final
+src/main/java/tp/pmd/Arbre.java:73	Avoid excessively long variable names like xAleamaxcoordonnees
+src/main/java/tp/pmd/Arbre.java:80	Avoid excessively long variable names like yAleaMaxCoordonnees
+src/main/java/tp/pmd/Arbre.java:87	The method 'insereCorps' has a Cyclomatic Complexity of 13.
+src/main/java/tp/pmd/Arbre.java:90	System.out.print is used
+src/main/java/tp/pmd/Arbre.java:94	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/tp/pmd/Arbre.java:106	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/tp/pmd/Arbre.java:110	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/tp/pmd/Arbre.java:118	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/tp/pmd/Arbre.java:120	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/tp/pmd/Arbre.java:150	System.out.print is used
+src/main/java/tp/pmd/Arbre.java:162	Avoid using if statements without curly braces
+src/main/java/tp/pmd/Arbre.java:164	Avoid using if statements without curly braces
+src/main/java/tp/pmd/Arbre.java:166	Avoid using if statements without curly braces
+src/main/java/tp/pmd/Arbre.java:168	Avoid using if statements without curly braces
+src/main/java/tp/pmd/Arbre.java:173	The method 'nouvellePosition' has a Cyclomatic Complexity of 24.
+src/main/java/tp/pmd/Arbre.java:205	System.out.print is used
+src/main/java/tp/pmd/Fenetre.java:19	Avoid variables with short names like a
+src/main/java/tp/pmd/Fenetre.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Fenetre.java:19	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Fenetre.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Fenetre.java:23	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Fenetre.java:23	Private field 'bouton' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/tp/pmd/Fenetre.java:27	It is a good practice to call super() in a constructor
+src/main/java/tp/pmd/Fenetre.java:34	Local variable 'south' could be declared final
+src/main/java/tp/pmd/Fenetre.java:50	Avoid using short method names
+src/main/java/tp/pmd/Fenetre.java:52	Avoid instantiating new objects inside loops
+src/main/java/tp/pmd/Fenetre.java:52	Avoid variables with short names like b
+src/main/java/tp/pmd/Fenetre.java:52	Local variable 'b' could be declared final
+src/main/java/tp/pmd/Fenetre.java:60	Avoid printStackTrace(); use a logger call instead.
+src/main/java/tp/pmd/Fenetre.java:67	Parameter 'arg0' is not assigned and could be declared final
+src/main/java/tp/pmd/Fenetre.java:68	Avoid variables with short names like b
+src/main/java/tp/pmd/Fenetre.java:68	Local variable 'b' could be declared final
+src/main/java/tp/pmd/Fenetre.java:76	Parameter 'args' is not assigned and could be declared final
+src/main/java/tp/pmd/Grille.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Grille.java:15	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Grille.java:16	Avoid variables with short names like a
+src/main/java/tp/pmd/Grille.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Grille.java:18	Avoid variables with short names like a
+src/main/java/tp/pmd/Grille.java:18	It is a good practice to call super() in a constructor
+src/main/java/tp/pmd/Grille.java:18	Parameter 'a' is not assigned and could be declared final
+src/main/java/tp/pmd/Grille.java:22	Avoid variables with short names like g
+src/main/java/tp/pmd/Grille.java:22	Parameter 'g' is not assigned and could be declared final
+src/main/java/tp/pmd/Grille.java:46	Avoid variables with short names like b
+src/main/java/tp/pmd/Grille.java:46	Avoid variables with short names like g
+src/main/java/tp/pmd/Grille.java:46	Parameter 'b' is not assigned and could be declared final
+src/main/java/tp/pmd/Grille.java:46	Parameter 'g' is not assigned and could be declared final
+src/main/java/tp/pmd/Grille.java:48	Avoid unnecessary comparisons in boolean expressions
+src/main/java/tp/pmd/Planete.java:7	Avoid variables with short names like G
+src/main/java/tp/pmd/Planete.java:7	The field name indicates a constant but its modifiers do not
+src/main/java/tp/pmd/Planete.java:7	Variables should start with a lowercase character
+src/main/java/tp/pmd/Planete.java:8	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Planete.java:8	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Planete.java:10	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Planete.java:10	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Planete.java:11	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Planete.java:11	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Planete.java:12	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Planete.java:12	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Planete.java:14	Parameter 'acc' is not assigned and could be declared final
+src/main/java/tp/pmd/Planete.java:14	Parameter 'masse' is not assigned and could be declared final
+src/main/java/tp/pmd/Planete.java:14	Parameter 'vitesse' is not assigned and could be declared final
+src/main/java/tp/pmd/Planete.java:23	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/tp/pmd/Planete.java:25	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/tp/pmd/Planete.java:33	Avoid variables with short names like a
+src/main/java/tp/pmd/Planete.java:33	Avoid variables with short names like x
+src/main/java/tp/pmd/Planete.java:33	Avoid variables with short names like y
+src/main/java/tp/pmd/Planete.java:33	Parameter 'a' is not assigned and could be declared final
+src/main/java/tp/pmd/Planete.java:33	Parameter 'x' is not assigned and could be declared final
+src/main/java/tp/pmd/Planete.java:36	Avoid variables with short names like v
+src/main/java/tp/pmd/Planete.java:36	Local variable 'v' could be declared final
+src/main/java/tp/pmd/Vecteur.java:5	Avoid variables with short names like x
+src/main/java/tp/pmd/Vecteur.java:5	Avoid variables with short names like y
+src/main/java/tp/pmd/Vecteur.java:5	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Vecteur.java:5	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/tp/pmd/Vecteur.java:5	Use explicit scoping instead of the default package private level
+src/main/java/tp/pmd/Vecteur.java:7	Avoid variables with short names like x
+src/main/java/tp/pmd/Vecteur.java:7	Avoid variables with short names like y
+src/main/java/tp/pmd/Vecteur.java:7	Parameter 'x' is not assigned and could be declared final
+src/main/java/tp/pmd/Vecteur.java:7	Parameter 'y' is not assigned and could be declared final
+src/test/java/demo/junit/PairImpairTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+src/test/java/demo/junit/PairImpairTest.java:15	Local variable 'petiteListe' could be declared final
+src/test/java/demo/junit/PairImpairTest.java:19	Avoid variables with short names like pi
+src/test/java/demo/junit/PairImpairTest.java:19	Local variable 'pi' could be declared final
+src/test/java/demo/junit/PairImpairTest.java:21	Local variable 'nbPairs' could be declared final
+src/test/java/demo/junit/PairImpairTest.java:22	Local variable 'nbImpairs' could be declared final
+src/test/java/demo/junit/PairImpairTest.java:24	JUnit assertions should include a message
+src/test/java/demo/junit/PairImpairTest.java:25	JUnit assertions should include a message

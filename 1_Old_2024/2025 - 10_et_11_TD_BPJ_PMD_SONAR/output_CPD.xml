@@ -1,0 +1,2963 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<pmd-cpd>
+   <duplication lines="10" tokens="64">
+      <file line="125"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="171"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y
+                              + (profmax
+                                 * 2
+                                 * demilargeur)
+                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur
+                                    + 1);
+                  a.se = b;]]></codefragment>
+   </duplication>
+   <duplication lines="10" tokens="64">
+      <file line="147"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="191"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y
+                              - (profmax
+                                 * 2
+                                 * demilargeur)
+                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur
+                                    + 1);
+                  a.ne = b;]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="56">
+      <file line="60"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="76"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[      for (;;) {
+         Arbre b = new Arbre(a.x, a.y, null, null, null, null, 0, 2);
+         panneau.a.calculToutesVitesses(panneau.a);
+         panneau.a.nouvellePosition(b);
+         panneau.a = b;
+         panneau.repaint();]]></codefragment>
+   </duplication>
+   <duplication lines="11" tokens="40">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)
+                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,
+                     this.y
+                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if ((1]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="39">
+      <file line="129"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="151"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="175"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="195"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                              + (profmax
+                                 * 2
+                                 * demilargeur)
+                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur
+                                    + 1);
+                  a.se = b;]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="38">
+      <file line="122"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="144"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (a.se == null) {
+                  Arbre b =
+                     new Arbre(a.x
+                        + (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="38">
+      <file line="168"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="188"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (a.so == null) {
+                  Arbre b =
+                     new Arbre(a.x
+                        - (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y]]></codefragment>
+   </duplication>
+   <duplication lines="11" tokens="38">
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (this.planete.vitesse.y < -Math.sqrt(2)
+                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,
+                     this.y
+                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else {]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="37">
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  && this.planete.vitesse.y < Math.sqrt(2)
+                     * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x
+                        + 2
+                           * demilargeur,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="32">
+      <file line="52"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="59"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         Planete planete = new Planete(m1, new Vecteur(0, 0), new Vecteur(0, 0));
+         listePlanete.add(planete);
+      }
+      // on cr]]>&#65533;<![CDATA[e n2 planetes de masse m2 ]]>&#65533;<![CDATA[ vitesse 0 qu'on met dans la meme
+      // liste ]]>&#65533;<![CDATA[ la suite
+      for (int i = 1; i < n2]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="32">
+      <file line="51"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                        - a.x))
+                     * Math.pow(10, -23)
+                     / (v.norme()
+                        * v.norme()
+                        * v.norme());]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="30">
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (this.planete.vitesse.y < -Math.sqrt(2)
+                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="29">
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  && this.planete.vitesse.y < Math.sqrt(2)
+                     * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="29">
+      <file line="281"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="327"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.y
+                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="27">
+      <file line="134"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="156"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="180"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="200"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  a.se = b;
+                  return insereCorps(x, y, planete, a);
+
+               }
+               else {
+                  // Insertion noued fictif qui sera remplac]]>&#65533;<![CDATA[ par la suite
+                  return insereCorps(x, y, planete, a.se);]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="26">
+      <file line="52"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="59"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         Planete planete = new Planete(m1, new Vecteur(0, 0), new Vecteur(0, 0));
+         listePlanete.add(planete);
+      }
+      // on cr]]>&#65533;<![CDATA[e n2 planetes de masse m2 ]]>&#65533;<![CDATA[ vitesse 0 qu'on met dans la meme
+      // liste ]]>&#65533;<![CDATA[ la suite
+      for (int i = 1; i < n2]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="26">
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (this.planete.vitesse.y < -Math.sqrt(2)
+                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="25">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)
+                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="25">
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (this.planete.vitesse.y < -Math.sqrt(2)
+                  * this.planete.vitesse.x) {]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="24">
+      <file line="125"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="191"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="24">
+      <file line="147"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="171"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y]]></codefragment>
+   </duplication>
+   <duplication lines="10" tokens="24">
+      <file line="250"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="336"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,
+                     this.y
+                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if ((1]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="23">
+      <file line="330"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="340"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y > -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="10" tokens="23">
+      <file line="354"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="377"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.y
+                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else {
+                  insereCorps(
+                     this.x]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="22">
+      <file line="125"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="129"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="147"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="175"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="22">
+      <file line="151"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="171"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="191"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="195"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                              - (profmax
+                                 * 2
+                                 * demilargeur)
+                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="22">
+      <file line="290"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="311"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="384"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,
+                     this.y
+                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="22">
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  && -this.planete.vitesse.y < -Math.sqrt(2)
+                     * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="21">
+      <file line="18"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="25"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y) {
+      this.estFeuille = true;
+      this.x = x;
+      this.y = y;
+      this.bplanete = false;]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="21">
+      <file line="125"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="147"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="151"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="195"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + (profmax
+                           * 2
+                           * demilargeur)
+                           / (Math.pow(2, a.profondeur)), a.y]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="21">
+      <file line="129"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="171"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="175"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="191"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                              + (profmax
+                                 * 2
+                                 * demilargeur)
+                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="21">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)
+                  * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x,]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="21">
+      <file line="284"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="340"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="20">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {
+            insereCorps(this.x, this.y, this.planete, a);
+         }
+         else {]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="20">
+      <file line="266"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="353"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.y
+                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (-this.planete.vitesse.y > (1]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="19">
+      <file line="252"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="267"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="338"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                     this.x,
+                     this.y
+                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if ((1]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="19">
+      <file line="259"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="320"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if ((1
+                  / Math.sqrt(2))
+                  * this.planete.vitesse.x < this.planete.vitesse.y]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="19">
+      <file line="274"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (-this.planete.vitesse.y > (1
+                  / Math.sqrt(2))
+                  * this.planete.vitesse.x
+                  && -this.planete.vitesse.y < Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="19">
+      <file line="282"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="313"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="328"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.y
+                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="19">
+      <file line="320"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (-(1
+                  / Math.sqrt(2))
+                  * this.planete.vitesse.x < -this.planete.vitesse.y]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="19">
+      <file line="331"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="341"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y > -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="18">
+      <file line="119"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="165"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (x > a.x) {
+
+            if (y > a.y) {
+               if (a.se == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="18">
+      <file line="259"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="274"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="320"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if ((1
+                  / Math.sqrt(2))
+                  * this.planete.vitesse.x < this.planete.vitesse.y]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="18">
+      <file line="285"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="18">
+      <file line="294"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="356"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="379"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else {
+                  insereCorps(
+                     this.x]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="17">
+      <file line="140"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="184"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a.se);
+               }
+            }
+            else if (y < a.y) {
+               if (a.ne == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="17">
+      <file line="252"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="338"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="354"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                     this.x,
+                     this.y
+                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if ((1]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="17">
+      <file line="267"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="377"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.y
+                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (-this.planete.vitesse.y > (1]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="17">
+      <file line="282"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="292"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="328"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.y
+                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="17">
+      <file line="302"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="364"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.y,
+                     this.planete,
+                     a);
+               }
+            }
+            else if (this.planete.vitesse.x < 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="17">
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (this.planete.vitesse.y > -Math.sqrt(2)
+                  * this.planete.vitesse.x) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="16">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)
+                  * this.planete.vitesse.x) {]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="16">
+      <file line="282"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="328"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="386"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.y
+                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="15">
+      <file line="269"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="315"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (-this.planete.vitesse.y > (1]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="14">
+      <file line="254"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="269"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="284"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="315"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="330"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="340"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if ((1]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="14">
+      <file line="263"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="278"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="299"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                     * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x
+                        + 2
+                           * demilargeur,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="14">
+      <file line="324"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="361"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                     * this.planete.vitesse.x) {
+                  insereCorps(
+                     this.x
+                        - 2
+                           * demilargeur,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="13">
+      <file line="122"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="144"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="168"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="188"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (a.se == null) {
+                  Arbre b =
+                     new Arbre(a.x]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="13">
+      <file line="325"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="351"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="362"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  insereCorps(
+                     this.x
+                        - 2
+                           * demilargeur,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="13">
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[            * Arbre.profmax, null, null, null, null, 0, 2);]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="12">
+      <file line="20"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="27"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="40"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[      this.x = x;
+      this.y = y;
+      this.bplanete = false;]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="12">
+      <file line="51"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="58"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="64"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         + 1; i++) {
+         Planete planete = new Planete(m1, new Vecteur(0, 0), new Vecteur(0, 0));]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="12">
+      <file line="243"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="303"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="365"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            insereCorps(this.x, this.y, this.planete, a);
+         }]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="12">
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            if (this.planete.vitesse.x > 0) {
+               if (this.planete.vitesse.y > Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="12">
+      <file line="254"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="269"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="294"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="340"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if ((1]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="12">
+      <file line="284"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="315"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="330"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="356"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="379"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        - 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="12">
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y == 0) {
+                  insereCorps(this.x, this.y, this.planete, a);]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="11">
+      <file line="122"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="144"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="168"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="188"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="60"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="76"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[               if (a.se == null) {
+                  Arbre b =
+                     new Arbre(a.x]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="11">
+      <file line="132"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="154"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="178"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="198"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="11">
+      <file line="223"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="67"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[      }
+      else {
+         // Lecture de bas gauche ]]>&#65533;<![CDATA[ bas droite en rotation de l'arbre (parcours
+         // pr]]>&#65533;<![CDATA[fixe)
+         if (a.so != null)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="11">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="250"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="290"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="311"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="336"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {
+            insereCorps(this.x, this.y, this.planete, a);]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="11">
+      <file line="244"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="370"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         }
+         else {
+            // Ma Diff]]>&#65533;<![CDATA[renciation des cas de la vitesse suivant la division
+            // de la grille
+            if (this.planete.vitesse.x > 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="11">
+      <file line="254"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="269"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="340"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="356"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="379"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="388"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.planete,
+                     a);
+               }]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="11">
+      <file line="255"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="270"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="316"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else if ((1]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="11">
+      <file line="48"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="58"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                  - (G
+                     * a.planete.masse
+                     * (x]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="11">
+      <file line="53"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="64"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                     / (v.norme()
+                        * v.norme()]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="11">
+      <file line="54"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="63"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                        * v.norme()
+                        * v.norme());]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="18"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="7"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Vecteur.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y) {
+      this.estFeuille = true;]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="20"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="27"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="40"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="8"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Vecteur.java"/>
+      <codefragment><![CDATA[      this.x = x;
+      this.y = y;]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="10">
+      <file line="135"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="140"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="157"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="160"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="181"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="184"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="201"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="204"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a);]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="10">
+      <file line="240"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         && this.bplanete) {// si la norme de la vitesse est trop
+                                                // faible
+         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="250"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="336"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="384"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {
+            insereCorps(this.x, this.y, this.planete, a);]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="10">
+      <file line="243"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="295"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="357"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="380"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            insereCorps(this.x, this.y, this.planete, a);
+         }
+         else {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="371"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            if (this.planete.vitesse.x > 0) {
+               if (this.planete.vitesse.y > Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="10">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="10">
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  && -this.planete.vitesse.y < Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="288"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="308"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="334"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="344"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="374"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="10">
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="10">
+      <file line="399"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="402"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="405"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            this.so.nouvellePosition(a);
+         }
+         if (this.ne != null) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="46"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         2
+            * Math.pow(10, 45),]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="10">
+      <file line="47"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="49"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[            * Math.pow(10, 45),
+         6
+            * Math.pow(10, 24),]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="50"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="26"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         6
+            * Math.pow(10, 12),]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file line="69"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="72"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="75"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="78"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (a.so != null) {
+            this.gravitation(a.so, x, y);]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="10">
+      <file line="70"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="73"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="76"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.gravitation(a.so, x, y);
+         }
+         if (a.ne != null) {]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="9">
+      <file line="23"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="31"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   }
+
+   Arbre(double x, double y, Planete planete) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="9">
+      <file line="25"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y, Planete planete) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="9">
+      <file line="121"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="143"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="167"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="187"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            if (y > a.y) {
+               if (a.se == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="9">
+      <file line="227"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="229"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="231"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="233"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (a.so != null)
+            this.calculToutesVitesses(a.so);]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="9">
+      <file line="240"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="245"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="371"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         && this.bplanete) {// si la norme de la vitesse est trop
+                                                // faible
+         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="9">
+      <file line="243"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="255"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="270"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="285"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="316"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="331"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="341"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            insereCorps(this.x, this.y, this.planete, a);
+         }
+         else {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="9">
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            if (this.planete.vitesse.x > 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="9">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="9">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="260"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="275"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="321"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="346"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)
+                  * this.planete.vitesse.x) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="9">
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  && this.planete.vitesse.y < Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="9">
+      <file line="295"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="357"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="380"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.planete,
+                     a);
+               }
+               else {]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="9">
+      <file line="304"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="366"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="389"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                     this.y,
+                     this.planete,
+                     a);
+               }
+            }]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="9">
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y < Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="9">
+      <file line="36"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[      bouton.addActionListener(this);
+      this.getContentPane().add(south, BorderLayout.SOUTH);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="9">
+      <file line="64"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="66"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[            this.parcoursEtAfficheArbre(g, b.so);
+            this.parcoursEtAfficheArbre(g, b.no);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="50"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="57"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="63"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[      for (int i = 1; i < n1]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="52"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="52"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="59"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="59"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         Planete planete = new Planete(m1, new Vecteur(0, 0), new Vecteur(0, 0));]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="8">
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="219"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   static Arbre insereCorps(double x, double y, Planete planete, Arbre a) {
+
+      if (a.x == x]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="106"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="349"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         && a.y == y) { // la position correspond ]]>&#65533;<![CDATA[ celle voulue
+         System.out.println(]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="229"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="75"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (a.no != null)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="231"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="72"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (a.ne != null)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="233"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="78"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (a.se != null)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="243"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="389"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            insereCorps(this.x, this.y, this.planete, a);
+         }]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="274"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="8">
+      <file line="255"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="270"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="285"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="295"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="304"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="316"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="331"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="341"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="357"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="366"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="380"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                           * demilargeur,
+                     this.planete,
+                     a);
+               }]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="261"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="322"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  * this.planete.vitesse.x < this.planete.vitesse.y]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="261"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="322"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  * this.planete.vitesse.x < this.planete.vitesse.y
+                  && this.planete.vitesse.y < Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  && this.planete.vitesse.y < Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="274"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="322"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               else if (-this.planete.vitesse.y > (1]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="8">
+      <file line="369"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="394"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               }
+            }
+            else {
+               if (this.planete.vitesse.y == 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="398"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="69"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (this.so != null) {
+            this.so.nouvellePosition(a);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="401"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="72"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (this.ne != null) {
+            this.ne.nouvellePosition(a);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="404"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="75"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (this.no != null) {
+            this.no.nouvellePosition(a);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="407"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="78"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (this.se != null) {
+            this.se.nouvellePosition(a);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="20"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="21"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[      new Arbre(Arbre.demilargeur
+         * Arbre.profmax, Arbre.demilargeur]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="48"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="26"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         6
+            * Math.pow(10, 24),]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="8">
+      <file line="64"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="66"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="67"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[            this.parcoursEtAfficheArbre(g, b.so);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="8">
+      <file line="23"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="27"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         * Math.pow(10, 45)) {
+         return col = Color.red;]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="18"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="25"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="34"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="18"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="7"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Vecteur.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="34"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y, Arbre so, Arbre no, Arbre ne, Arbre se, double masse, double profondeur) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="7">
+      <file line="42"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="15"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[      this.masse = masse;
+      this.profondeur = profondeur;]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="7">
+      <file line="73"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="83"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         double xAlea = Math.random();
+         // j'obtiens un nombre al]]>&#65533;<![CDATA[atoire entre 0 et 1
+         double xAleamaxcoordonnees =]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="7">
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="39"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   static Arbre insereCorps(double x, double y, Planete planete, Arbre a) {
+
+      if (a.x == x]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="7">
+      <file line="121"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="143"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="167"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="187"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            if (y > a.y) {
+               if (a.se == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="132"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="154"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="178"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="198"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="132"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="154"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="178"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="198"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="7">
+      <file line="135"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="157"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="181"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="201"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="243"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="296"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="358"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="381"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a);
+
+               }
+               else {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="7">
+      <file line="219"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="238"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   public void calculToutesVitesses(Arbre a) {
+      if (a.estFeuille) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="7">
+      <file line="219"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   public void calculToutesVitesses(Arbre a) {
+      if (a.estFeuille) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="221"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[         a.planete.gravitation(this, a.x, a.y);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="52"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="62"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="7">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="263"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="278"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="324"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {
+            insereCorps(this.x, this.y, this.planete, a);]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="7">
+      <file line="244"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="395"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         }
+         else {
+            // Ma Diff]]>&#65533;<![CDATA[renciation des cas de la vitesse suivant la division
+            // de la grille
+            if (this.planete.vitesse.x > 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="250"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="261"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="263"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="276"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="278"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="290"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="311"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="322"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="324"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="336"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="347"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="349"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            if (this.planete.vitesse.x > 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="261"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="274"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="322"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="7">
+      <file line="254"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="266"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="269"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="281"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="302"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="340"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="356"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="379"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.planete,]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="7">
+      <file line="266"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="302"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="327"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="364"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="7">
+      <file line="281"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="353"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="7">
+      <file line="284"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="294"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="315"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="327"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="330"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="353"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="364"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="388"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        - 2
+                           * demilargeur,
+                     this.planete,]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="7">
+      <file line="368"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                     a);
+               }
+            }
+            else {
+               if (this.planete.vitesse.y == 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="7">
+      <file line="12"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="9"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[public class Fenetre extends JFrame implements ActionListener {
+
+   /**
+    * 
+    */
+   private static final long serialVersionUID = 5265376322133340293L;]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="7">
+      <file line="47"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="49"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="51"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="23"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="27"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="52"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="62"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            * Math.pow(10, 45),]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="7">
+      <file line="40"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="64"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="66"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[      g.setColor(Color.BLACK);
+      this.parcoursEtAfficheArbre(g, this.a);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="18"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="18"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="25"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="34"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y) {
+      this.estFeuille = true;]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="25"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="34"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="7"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Vecteur.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y, Planete planete) {]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="6">
+      <file line="89"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="93"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            2
+               * Arbre.demilargeur
+               * x]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="6">
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="238"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[   static Arbre insereCorps(double x, double y, Planete planete, Arbre a) {
+
+      if (a.x == x]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="6">
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="121"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="143"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="167"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="187"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="219"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="39"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   static Arbre insereCorps(double x, double y, Planete planete, Arbre a) {
+
+      if (a.x == x]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="107"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="210"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="350"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         System.out.println(]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="6">
+      <file line="135"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="157"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="181"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="201"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="256"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="271"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="286"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="317"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="332"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="342"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a);
+
+               }
+               else {]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="6">
+      <file line="140"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="234"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a.se);
+               }
+            }]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="6">
+      <file line="140"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="184"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="306"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a.se);
+               }
+            }
+            else if (y < a.y) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="167"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="224"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="68"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            if (y > a.y) {
+               if (a.so == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="6">
+      <file line="222"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="243"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         a.planete.nouvelleVitesse();
+      }
+      else {
+         // Lecture de bas gauche ]]>&#65533;<![CDATA[ bas droite en rotation de l'arbre (parcours
+         // pr]]>&#65533;<![CDATA[fixe)
+         if (a.so != null)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="238"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="240"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="21"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   public void nouvellePosition(Arbre a) {
+      if (this.estFeuille]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="6">
+      <file line="240"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="39"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         && this.bplanete) {// si la norme de la vitesse est trop
+                                                // faible
+         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="250"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="261"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="261"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="263"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="274"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="276"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="278"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="290"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="311"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="322"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="322"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="324"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="336"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="345"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="347"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="349"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="47"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="49"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="51"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="23"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="27"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="242"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="250"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="263"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="278"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="290"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="299"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="311"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="324"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="336"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="361"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="372"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="375"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="384"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (this.planete.vitesse.norme() < Math.pow(10, -7)) {
+            insereCorps(this.x, this.y, this.planete, a);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="249"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="260"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="262"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="275"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="277"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="289"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="310"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="321"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="323"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="335"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="346"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="348"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               if (this.planete.vitesse.y > Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="6">
+      <file line="254"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="269"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="327"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="340"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="353"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="356"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="364"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="379"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.planete,]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="6">
+      <file line="266"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="281"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="284"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="294"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="302"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="315"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="330"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="388"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                        + 2
+                           * demilargeur,
+                     this.y]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="288"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="308"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="334"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="344"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="374"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="25"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[               }
+               else if (this.planete.vitesse.y < -Math.sqrt(2)]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="6">
+      <file line="391"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="408"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                     a);
+               }
+            }
+         }
+      }]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="6">
+      <file line="394"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="66"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         }
+      }
+      else { // on applique ensuite la fonction r]]>&#65533;<![CDATA[cursivement ]]>&#65533;<![CDATA[ tous les
+            // sous-arbres d'un noeud
+         if (this.so != null) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="398"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="401"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="404"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="407"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="69"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="72"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="75"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="78"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         if (this.so != null) {
+            this.so.nouvellePosition(a);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="399"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="402"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="405"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="408"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            this.so.nouvellePosition(a);
+         }]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="6">
+      <file line="70"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="79"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            e.printStackTrace();
+         }
+      }
+   }
+
+   // Fonction lanc]]>&#65533;<![CDATA[e lors de l'appui sur le bouton
+   public void actionPerformed(ActionEvent arg0) {]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="6">
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="49"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[   public void paintComponent(Graphics g) {
+      // Les lignes de la grille
+      // int dim = 10; // dimension d'une case de la grille
+      // int larg = getWidth();
+      // int haut = getHeight();
+      //
+      // for (int i = 0; i < 7 * dim + 1; i += dim) {
+      // g.drawLine(i, 0, i, haut); // Les lignes verticales de la grille
+      // g.drawLine(0, i, larg, i); // Les lignes horizontales de la grille
+      // }
+
+      g.setColor(Color.white);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="33"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="40"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[      g.setColor(Color.white);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="41"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="64"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[      this.parcoursEtAfficheArbre(g, this.a);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="26"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[      if (this.masse == 2]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="23"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="27"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="30"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[         * Math.pow(10, 45)) {
+         return col = Color.red;]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="43"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="50"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[               new Vecteur(x
+                  - a.x, y]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="44"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="60"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                  - a.x, y
+                     - a.y);]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="46"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="90"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.acc.x =]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="6">
+      <file line="56"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="94"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.acc.y =]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="6">
+      <file line="70"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="73"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="76"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="79"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.gravitation(a.so, x, y);
+         }]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="25"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="34"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   Arbre(double x, double y, Planete planete) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="79"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="87"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         double x = Math.round(xAleamaxcoordonnees);]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="5">
+      <file line="97"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="305"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="367"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="390"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            p,
+            a);
+      }
+   }]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="5">
+      <file line="103"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="121"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="143"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="187"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="219"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="224"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="39"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="68"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   static Arbre insereCorps(double x, double y, Planete planete, Arbre a) {
+
+      if (a.x == x]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="5">
+      <file line="116"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="223"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="244"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="370"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="395"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="67"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[      }
+      else {
+         // Distinction des cas suivant la position actuelle et la position voulue
+         if (x > a.x) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="122"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="233"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="78"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[               if (a.se == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="132"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="154"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="178"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="198"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="132"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="154"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="178"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="198"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="22"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[                                 / (Math.pow(2, a.profondeur)), null, null, null, null, 0, a.profondeur]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="5">
+      <file line="135"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="157"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="181"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="201"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="305"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="367"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="390"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a);
+
+               }]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="5">
+      <file line="140"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="234"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="67"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a.se);
+               }
+            }]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="5">
+      <file line="141"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="162"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="185"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="307"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[               }
+            }
+            else if (y < a.y) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="144"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="231"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="72"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[               if (a.ne == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="188"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="229"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="75"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[               if (a.no == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="5">
+      <file line="204"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="391"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="408"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="67"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[                  return insereCorps(x, y, planete, a.no);
+               }
+            }
+         }
+      }]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="219"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="238"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="18"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[   public void calculToutesVitesses(Arbre a) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="227"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="398"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (a.so != null)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="228"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="230"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="232"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            this.calculToutesVitesses(a.so);
+         if (a.no != null)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="229"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="404"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (a.no != null)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="231"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="401"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (a.ne != null)]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="233"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="407"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[         if (a.se != null)]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="238"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="240"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="245"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="248"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="309"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="371"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="396"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="21"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   public void nouvellePosition(Arbre a) {
+      if (this.estFeuille]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="243"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="251"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="264"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="279"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="291"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="300"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="312"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="337"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="351"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="373"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="376"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <file line="385"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Arbre.java"/>
+      <codefragment><![CDATA[            insereCorps(this.x, this.y, this.planete, a);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="27"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="86"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[   public Fenetre() {
+      this.setTitle("Probl]]>&#65533;<![CDATA[me ]]>&#65533;<![CDATA[ N corps");]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="61"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="62"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="77"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <file line="78"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Fenetre.java"/>
+      <codefragment><![CDATA[         Arbre b = new Arbre(a.x, a.y, null, null, null, null, 0, 2);
+         panneau.a.calculToutesVitesses(panneau.a);]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="5">
+      <file line="37"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="50"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[      g.fillRect(0, 0, this.getWidth(), this.getHeight());
+
+      // La grille vide
+      g.setColor(Color.BLACK);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="46"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="47"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[   public void parcoursEtAfficheArbre(Graphics g, Arbre b) {
+      if (b != null) {]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="52"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="55"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[               (int) b.x]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="53"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <file line="56"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Grille.java"/>
+      <codefragment><![CDATA[                  - diametre
+                     / 2,]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="45"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="55"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                     - a.y);
+            this.acc.x =]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="46"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="47"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="89"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="90"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.acc.x =]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="46"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="87"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.acc.x =
+               this.acc.x]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="46"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="56"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.acc.x =
+               this.acc.x]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="53"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="55"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="63"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="65"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[                     / (v.norme()]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="56"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="57"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="93"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="94"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.acc.y =]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="56"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="91"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            this.acc.y =
+               this.acc.y]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="87"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="88"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[      this.vitesse.x =]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="87"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="91"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[      this.vitesse.x =
+         this.vitesse.x]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="5">
+      <file line="88"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="15"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Vecteur.java"/>
+      <codefragment><![CDATA[         this.vitesse.x
+            + this.acc.x;]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="89"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="93"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[            + this.acc.x;]]></codefragment>
+   </duplication>
+   <duplication lines="1" tokens="5">
+      <file line="91"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <file line="92"
+            path="T:\Ws4Cours\WSS5_form_BPJ\2018 - 10_et_11_TP_BPJ_PMD_SONAR\src\tp\pmd\Planete.java"/>
+      <codefragment><![CDATA[      this.vitesse.y =]]></codefragment>
+   </duplication>
+</pmd-cpd>

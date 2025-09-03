@@ -1,0 +1,11 @@
+août 22, 2025 8:12:21 PM tp_exception.BP1_JamaisCatchVide lireFichier
+GRAVE: Erreur fichier non trouvé : T:\Ws4Cours\WSS4_form_BPJ_2025\2025 - 0x TP_BPJ_Exception\resources2\data.txt
+java.io.FileNotFoundException: T:\Ws4Cours\WSS4_form_BPJ_2025\2025 - 0x TP_BPJ_Exception\resources2\data.txt (Le chemin d’accès spécifié est introuvable)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at tp_exception.BP1_JamaisCatchVide.lireFichier(BP1_JamaisCatchVide.java:50)
+	at tp_exception.BP1_JamaisCatchVide.main(BP1_JamaisCatchVide.java:28)
+

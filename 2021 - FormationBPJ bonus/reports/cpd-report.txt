@@ -1,0 +1,1308 @@
+Found a 60 line (272 tokens) duplication in the following files: 
+Starting at line 14 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 12 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\checkstyle\MonSerial.java
+
+public class MonSerial {
+
+	// on enveloppe les deux API
+	FileOutputStream fos;
+	FileInputStream fis;
+
+	public static void main(String[] args) {
+		MonSerial ms = new MonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue, le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+			fos = new FileOutputStream("essai.dat");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+		try {
+			fis = new FileInputStream("essai.dat");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			// je relis dans le même sens
+			String chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			int entier = (Integer) ois.readObject();
+			System.out.println(entier);
+			chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			ois.close();
+
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} catch (ClassNotFoundException e) {
+			throw new MonappliException("classe non accessible", e);
+
+		}
+	}
+}
+=====================================================================
+Found a 53 line (248 tokens) duplication in the following files: 
+Starting at line 21 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 19 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\badMonSerial.java
+
+		badMonSerial ms = new badMonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue, le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+			fos = new FileOutputStream("essai.dat");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+		try {
+			fis = new FileInputStream("essai.dat");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			// je relis dans le même sens
+			String chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			int entier = (Integer) ois.readObject();
+			System.out.println(entier);
+			chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			ois.close();
+
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} catch (ClassNotFoundException e) {
+			throw new MonappliException("classe non accessible", e);
+
+		}
+	}
+}
+=====================================================================
+Found a 40 line (221 tokens) duplication in the following files: 
+Starting at line 8 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\ihm\Application.java
+Starting at line 12 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+public class Application {
+
+	private static Scanner sc = new Scanner(System.in);
+
+	public static Note creerNote() {
+		System.out.println("--- Saisie d'une nouvelle note ---");
+		System.out.println("Entrer la matiere : ");
+		String matiere = sc.next();
+		System.out.println("Entrer la note : ");
+		int note = sc.nextInt();
+		System.out.println("Entrer le coefficient : ");
+		int coef = sc.nextInt();
+		return new Note(matiere, note, coef);
+	}
+
+	public static int choixMenu() {
+		System.out.println("--- Menu General ---");
+		System.out.println("1. Afficher toutes les notes");
+		System.out.println("2. Saisie d'une nouvelle note");
+		System.out.println("3. Afficher la moyenne coefficientée");
+		System.out.println("4. Afficher la moyenne simple");
+		System.out.println("5. Quitter");
+		int retour = sc.nextInt();
+		if (retour < 0 || retour > 5) {
+			System.out.println("Erreur de saisie");
+			return -1;
+		}
+		return retour;
+	}
+
+	public static String saisieChaine() {
+		return sc.next();
+	}
+
+	public static void close() {
+		sc.close();
+	}
+
+	public static void main(String[] args) {
+		int choix = 0;
+=====================================================================
+Found a 47 line (220 tokens) duplication in the following files: 
+Starting at line 27 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 25 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\checkstyle\badMonSerial.java
+
+					.println("Une erreur est intervenue,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+			fos = new FileOutputStream("essai.dat");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+		try {
+			fis = new FileInputStream("essai.dat");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			// je relis dans le même sens
+			String chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			int entier = (Integer) ois.readObject();
+			System.out.println(entier);
+			chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			ois.close();
+
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} catch (ClassNotFoundException e) {
+			throw new MonappliException("classe non accessible", e);
+
+		}
+	}
+}
+=====================================================================
+Found a 33 line (172 tokens) duplication in the following files: 
+Starting at line 64 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+Starting at line 140 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+	public static List<Note> getListeComplete() {
+		List<Note> listePersonnesRetour = new ArrayList<Note>();
+		Statement s = null;
+		ResultSet r = null;
+		try {
+			Connection c = Connexion.getConnexion();
+			// creation de la requete
+			String sql = "select MATIERE,NOTE,COEFFICIENT from NOTE";
+			s = c.createStatement();
+			r = s.executeQuery(sql);
+			while (r.next()) {
+				Note p = new Note(r.getString("MATIERE"), r.getInt("NOTE"),
+						r.getInt("COEFFICIENT"));
+				listePersonnesRetour.add(p);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (r != null)
+					r.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			try {
+				if (s != null)
+					s.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return listePersonnesRetour;
+	}
+=====================================================================
+Found a 40 line (153 tokens) duplication in the following files: 
+Starting at line 14 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 10 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\exception\MonSerial.java
+
+public class MonSerial {
+
+	// on enveloppe les deux API
+	FileOutputStream fos;
+	FileInputStream fis;
+
+	public static void main(String[] args) {
+		MonSerial ms = new MonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue, le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+			fos = new FileOutputStream("essai.dat");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+		try {
+			fis = new FileInputStream("essaia.dat");
+=====================================================================
+Found a 43 line (138 tokens) duplication in the following files: 
+Starting at line 3 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\domaine\Note.java
+Starting at line 3 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Note.java
+
+public class Note {
+	private String matiere;
+	private int note;
+	private int coefficient;
+
+	public String getMatiere() {
+		return matiere;
+	}
+
+	public void setMatiere(String matiere) {
+		this.matiere = matiere;
+	}
+
+	public int getNote() {
+		return note;
+	}
+
+	public void setNote(int note) {
+		this.note = note;
+	}
+
+	public int getCoefficient() {
+		return coefficient;
+	}
+
+	public void setCoefficient(int coefficient) {
+		this.coefficient = coefficient;
+	}
+
+	@Override
+	public String toString() {
+		return "Personne [matiere=" + matiere + ", note=" + note
+				+ ", coefficient=" + coefficient + "]";
+	}
+
+	public Note(String matiere, int note, int coefficient) {
+		super();
+		this.matiere = matiere;
+		this.note = note;
+		this.coefficient = coefficient;
+	}
+
+}
+=====================================================================
+Found a 27 line (130 tokens) duplication in the following files: 
+Starting at line 94 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 72 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+
+			s = c.createStatement();
+			r = s.executeQuery(sql);
+			while (r.next()) {
+				Note p = new Note(r.getString("MATIERE"), r.getInt("NOTE"),
+						r.getInt("COEFFICIENT"));
+				listePersonnesRetour.add(p);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (r != null)
+					r.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			try {
+				if (s != null)
+					s.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return listePersonnesRetour;
+	}
+
+}
+=====================================================================
+Found a 33 line (129 tokens) duplication in the following files: 
+Starting at line 19 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\badMonSerial.java
+Starting at line 17 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\exception\MonSerial.java
+
+		MonSerial ms = new MonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue, le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+			fos = new FileOutputStream("essai.dat");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+		try {
+			fis = new FileInputStream("essaia.dat");
+=====================================================================
+Found a 25 line (129 tokens) duplication in the following files: 
+Starting at line 94 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 148 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+			s = c.createStatement();
+			r = s.executeQuery(sql);
+			while (r.next()) {
+				Note p = new Note(r.getString("MATIERE"), r.getInt("NOTE"),
+						r.getInt("COEFFICIENT"));
+				listePersonnesRetour.add(p);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (r != null)
+					r.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			try {
+				if (s != null)
+					s.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return listePersonnesRetour;
+	}
+=====================================================================
+Found a 21 line (124 tokens) duplication in the following files: 
+Starting at line 53 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 67 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\MonSerial.java
+
+			final FileInputStream fis = new FileInputStream("essai.dat");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			// je relis dans le même sens
+			String chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			int entier = (Integer) ois.readObject();
+			System.out.println(entier);
+			chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			ois.close();
+
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} catch (ClassNotFoundException e) {
+			throw new MonappliException("classe non accessible", e);
+
+		}
+	}
+}
+=====================================================================
+Found a 37 line (121 tokens) duplication in the following files: 
+Starting at line 7 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\Connexion.java
+Starting at line 7 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\Connexion.java
+Starting at line 7 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Connexion.java
+
+public class Connexion {
+	private static Connection maConnection;
+	private final static String URL = "jdbc:hsqldb:mem:dbpersonnes";
+	private final static String DRIVER = "org.hsqldb.jdbcDriver";
+
+	// dans la vraie vie cette calsse serait un singleton, ici une version plus
+	// simple via des methodes statiques
+
+	public static Connection getConnexion() {
+		// dans cette version on ne propage l'exception, on se contente
+		// d'afficher la trace en cas d'erreur
+		if (maConnection != null)
+			return maConnection;
+		try {
+			// sollicitation du driver Hsql
+			Class.forName(DRIVER);
+			// obtention d'une connection
+			maConnection = DriverManager.getConnection(URL);
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return maConnection;
+	}
+
+	public static void close() {
+		try {
+			if (maConnection != null) {
+				maConnection.close();
+				maConnection = null;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}
+=====================================================================
+Found a 21 line (118 tokens) duplication in the following files: 
+Starting at line 53 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 49 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\exception\MonSerial.java
+
+			fis = new FileInputStream("essaia.dat");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			// je relis dans le même sens
+			String chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			int entier = (Integer) ois.readObject();
+			System.out.println(entier);
+			chaine = (String) ois.readObject();
+			System.out.println(chaine);
+			ois.close();
+
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} catch (ClassNotFoundException e) {
+			throw new MonappliException("classe non accessible", e);
+
+		}
+	}
+}
+=====================================================================
+Found a 24 line (118 tokens) duplication in the following files: 
+Starting at line 41 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+Starting at line 117 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+	public static void enregistrerNote(Note n) {
+		PreparedStatement ps = null;
+		try {
+			Connection c = Connexion.getConnexion();
+			// creation en BDD d'une nouvelle note
+			String sql = "insert into NOTE (MATIERE,NOTE,COEFFICIENT) values (?,?,?)";
+			ps = c.prepareStatement(sql);
+			ps.setString(1, n.getMatiere());
+			ps.setInt(2, n.getNote());
+			ps.setInt(3, n.getCoefficient());
+			ps.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public static List<Note> getListeComplete() {
+=====================================================================
+Found a 27 line (101 tokens) duplication in the following files: 
+Starting at line 23 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\exception\MonSerial.java
+Starting at line 25 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\checkstyle\badMonSerial.java
+
+					.println("Une erreur est intervenue,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+			fos = new FileOutputStream("essai.dat");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+		try {
+			fis = new FileInputStream("essai.dat");
+=====================================================================
+Found a 22 line (98 tokens) duplication in the following files: 
+Starting at line 66 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 50 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+
+			ps.setInt(3, n.getCoefficient());
+			ps.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public List<Note> getListeComplete() {
+		List<Note> listePersonnesRetour = new ArrayList<Note>();
+		Statement s = null;
+		ResultSet r = null;
+		try {
+			Connection c = Connexion.getConnexion();
+			// creation de la requete
+			String sql = "select MATIERE,NOTE,COEFFICIENT from NOTE";
+=====================================================================
+Found a 24 line (97 tokens) duplication in the following files: 
+Starting at line 31 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 23 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+
+			ps = c.prepareStatement(sql);
+			int retour = ps.executeUpdate();
+			if (retour == 0) {
+				return 0;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return -1;
+	}
+
+	public void enregistrerNote(Note n) {
+		PreparedStatement ps = null;
+		try {
+			Connection c = Connexion.getConnexion();
+			// creation en BDD d'une nouvelle note
+			String sql = "insert into NOTE (MATIERE,NOTE,COEFFICIENT) values (?,?,?)";
+=====================================================================
+Found a 26 line (96 tokens) duplication in the following files: 
+Starting at line 16 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+Starting at line 92 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+	public static int initBDD() {
+		PreparedStatement ps = null;
+		// chargement Driver
+		try {
+			Connection c = Connexion.getConnexion();
+			String sql = "create table NOTE (MATIERE char(30), NOTE INTEGER, COEFFICIENT INTEGER );";
+			// ,age integer
+			ps = c.prepareStatement(sql);
+			int retour = ps.executeUpdate();
+			if (retour == 0) {
+				return 0;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return -1;
+	}
+
+	public static void enregistrerNote(Note n) {
+=====================================================================
+Found a 19 line (77 tokens) duplication in the following files: 
+Starting at line 34 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 48 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\MonSerial.java
+
+			final FileOutputStream fos = new FileOutputStream("essai.txt");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+		try {
+=====================================================================
+Found a 18 line (75 tokens) duplication in the following files: 
+Starting at line 34 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 29 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\MonSerial.java
+
+			final FileOutputStream fos = new FileOutputStream("essai.dat");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void sauvegardertxt() throws MonappliException {
+=====================================================================
+Found a 19 line (73 tokens) duplication in the following files: 
+Starting at line 31 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 99 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+			ps = c.prepareStatement(sql);
+			int retour = ps.executeUpdate();
+			if (retour == 0) {
+				return 0;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return -1;
+	}
+
+	public static void enregistrerNote(Note n) {
+=====================================================================
+Found a 36 line (70 tokens) duplication in the following files: 
+Starting at line 13 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\junit\PairImpair.java
+Starting at line 25 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\javadoc\PairImpair.java
+
+	}
+
+	/**
+	 * 
+	 * @return le nombre d'entiers pairs et zéro si la liste est vide ou
+	 *         n'existe pas
+	 */
+	public int donneNbEntiersPairs() {
+		int retour = 0;
+		for (int i : mesEntiers) {
+			if (i % 2 == 0) { // penser à généraliser en paramétrant si
+								// nécessaire
+				retour++;
+			}
+		}
+		return retour;
+	}
+
+	/**
+	 * @deprecated utiliser dorénavant la taille de la liste combinée avec
+	 *             donneNbEntiersPairs()
+	 * @see PairImpair
+	 * @return le nombre d'entiers impairs et zéro si la liste est vide ou
+	 *         n'existe pas
+	 */
+	public int donneNbEntiersImpairs() {
+		int retour = 0;
+		for (int i : mesEntiers) {
+			if (i % 2 == 1) {
+				retour++;
+			}
+		}
+		return retour;
+	}
+
+}
+=====================================================================
+Found a 18 line (69 tokens) duplication in the following files: 
+Starting at line 29 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\MonSerial.java
+Starting at line 48 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\MonSerial.java
+
+			final FileOutputStream fos = new FileOutputStream("essai.txt");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			// j'écris dans un certain sens, ici un string puis un entier puis
+			// un string
+			oos.writeObject("Bruno");
+			oos.writeObject(1000);
+			oos.writeObject("Berlemont");
+			oos.close();
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} finally {
+
+		}
+	}
+
+	public void charger() throws MonappliException {
+=====================================================================
+Found a 9 line (68 tokens) duplication in the following files: 
+Starting at line 12 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\collections\SetInteger.java
+Starting at line 16 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\collections\ListInteger.java
+
+		System.out.println("------Debut-------" + listeEntier.getClass());
+		for (int i = 0; i < TAILLE_LISTE; i++) {
+			listeEntier.add(i);
+		}
+		for (int i = 0; i < 100; i++) {
+			listeEntier.add(1);
+		}
+		System.out.println("taille de la liste d entiers suite creation ="
+				+ listeEntier.size());
+=====================================================================
+Found a 4 line (64 tokens) duplication in the following files: 
+Starting at line 114 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 138 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+						Arbre b = new Arbre(a.x - (profmax * 2 * demilargeur) / (Math.pow(2, a.profondeur)),
+								a.y - (profmax * 2 * demilargeur) / (Math.pow(2, a.profondeur)), null, null, null,
+								null, 0, a.profondeur + 1);
+						a.no = b;
+=====================================================================
+Found a 4 line (64 tokens) duplication in the following files: 
+Starting at line 102 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 128 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+						Arbre b = new Arbre(a.x - (profmax * 2 * demilargeur) / (Math.pow(2, a.profondeur)),
+								a.y + (profmax * 2 * demilargeur) / (Math.pow(2, a.profondeur)), null, null, null,
+								null, 0, a.profondeur + 1);
+						a.so = b;
+=====================================================================
+Found a 14 line (57 tokens) duplication in the following files: 
+Starting at line 20 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 15 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\MonSerial.java
+
+	public static void main(String[] args) {
+		MonSerial ms = new MonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue, le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+=====================================================================
+Found a 15 line (56 tokens) duplication in the following files: 
+Starting at line 66 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 126 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+			ps.setInt(3, n.getCoefficient());
+			ps.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public static List<Note> getListeComplete() {
+=====================================================================
+Found a 6 line (56 tokens) duplication in the following files: 
+Starting at line 51 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Fenetre.java
+Starting at line 67 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Fenetre.java
+
+	public void actionPerformed(ActionEvent arg0) {
+		Arbre b = new Arbre(a.x, a.y, null, null, null, null, 0, 2);
+		panneau.a.calculToutesVitesses(panneau.a);
+		panneau.a.nouvellePosition(b);
+		panneau.a = b;
+		panneau.repaint();
+=====================================================================
+Found a 14 line (51 tokens) duplication in the following files: 
+Starting at line 12 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\badMonSerial.java
+Starting at line 12 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\checkstyle\badMonSerial.java
+
+public class badMonSerial {
+
+	// on enveloppe les deux API
+	FileOutputStream fos;
+	FileInputStream fis;
+
+	public static void main(String[] args) {
+		badMonSerial ms = new badMonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz le traitement s'est arrêté ...");
+=====================================================================
+Found a 8 line (47 tokens) duplication in the following files: 
+Starting at line 29 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\service\NoteService.java
+Starting at line 175 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+		List<Note> toutesLesNotes = getListeComplete();
+		int sommeProduits = 0, sommeCoef = 0;
+		for (Note p : toutesLesNotes) {
+			sommeProduits += p.getNote() * p.getCoefficient();
+			sommeCoef += p.getCoefficient();
+		}
+		return (sommeProduits / sommeCoef);
+	}
+=====================================================================
+Found a 10 line (42 tokens) duplication in the following files: 
+Starting at line 28 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+Starting at line 52 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\dao\NoteDao.java
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+=====================================================================
+Found a 8 line (42 tokens) duplication in the following files: 
+Starting at line 85 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 140 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+	public static List<Note> getListeComplete() {
+		List<Note> listePersonnesRetour = new ArrayList<Note>();
+		Statement s = null;
+		ResultSet r = null;
+		try {
+			Connection c = Connexion.getConnexion();
+			// creation de la requete
+			String sql = "select MATIERE,NOTE,COEFFICIENT from NOTE";
+=====================================================================
+Found a 10 line (42 tokens) duplication in the following files: 
+Starting at line 36 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+Starting at line 68 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\enumeration\dao\NoteDao.java
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (ps != null)
+					ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+=====================================================================
+Found a 13 line (41 tokens) duplication in the following files: 
+Starting at line 19 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\badMonSerial.java
+Starting at line 16 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\pmd\MonSerial.java
+
+		MonSerial ms = new MonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue, le traitement s'est arrêté ...");
+		}
+
+	}
+
+	public void sauvegarder() throws MonappliException {
+		try {
+=====================================================================
+Found a 12 line (40 tokens) duplication in the following files: 
+Starting at line 73 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\ihm\Application.java
+Starting at line 76 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+				int moyenneSimple = calculMoyenneSimple();
+				System.out.println("la moyenne simple  est " + moyenneSimple);
+				break;
+			case 5:
+				// Nothing to do
+				break;
+			default:
+				System.out.println("Vous devez saisir 1, 2, 3, 4 ou 5 !!!");
+				break;
+			}
+		} while (choix != 5);
+		close();
+=====================================================================
+Found a 3 line (40 tokens) duplication in the following files: 
+Starting at line 182 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 201 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+					} else if (this.planete.vitesse.y > -Math.sqrt(2) * this.planete.vitesse.x) {
+						insereCorps(this.x, this.y + 2 * demilargeur, this.planete, a);
+					} else if (this.planete.vitesse.y > -(1 / Math.sqrt(2)) * this.planete.vitesse.x
+=====================================================================
+Found a 3 line (39 tokens) duplication in the following files: 
+Starting at line 103 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 115 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+								a.y - (profmax * 2 * demilargeur) / (Math.pow(2, a.profondeur)), null, null, null,
+								null, 0, a.profondeur + 1);
+						a.ne = b;
+=====================================================================
+Found a 3 line (38 tokens) duplication in the following files: 
+Starting at line 190 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 196 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+					if (this.planete.vitesse.y < Math.sqrt(2) * this.planete.vitesse.x) {
+						insereCorps(this.x, this.y - 2 * demilargeur, this.planete, a);
+					} else if (-(1 / Math.sqrt(2)) * this.planete.vitesse.x < -this.planete.vitesse.y
+=====================================================================
+Found a 3 line (38 tokens) duplication in the following files: 
+Starting at line 101 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 113 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+					if (a.ne == null) {
+						Arbre b = new Arbre(a.x + (profmax * 2 * demilargeur) / (Math.pow(2, a.profondeur)),
+								a.y - (profmax * 2 * demilargeur) / (Math.pow(2, a.profondeur)), null, null, null,
+=====================================================================
+Found a 2 line (37 tokens) duplication in the following files: 
+Starting at line 185 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 188 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+							&& -this.planete.vitesse.y < Math.sqrt(2) * this.planete.vitesse.x) {
+						insereCorps(this.x + 2 * demilargeur, this.y - 2 * demilargeur, this.planete, a);
+=====================================================================
+Found a 7 line (35 tokens) duplication in the following files: 
+Starting at line 41 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 62 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+
+			ois.close();
+
+		} catch (FileNotFoundException e) {
+			throw new MonappliException("Fichier non trouvé", e);
+		} catch (IOException e) {
+			throw new MonappliException("Fichier non accessible", e);
+		} catch (ClassNotFoundException e) {
+=====================================================================
+Found a 8 line (35 tokens) duplication in the following files: 
+Starting at line 39 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\service\NoteService.java
+Starting at line 185 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+		List<Note> toutesLesNotes = getListeComplete();
+		int sommeNotes = 0;
+		for (Note p : toutesLesNotes) {
+			sommeNotes += p.getNote();
+		}
+		return (sommeNotes / toutesLesNotes.size());
+	}
+}
+=====================================================================
+Found a 5 line (34 tokens) duplication in the following files: 
+Starting at line 10 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\collections\SetMonInteger.java
+Starting at line 10 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\collections\SetInteger.java
+
+		Set<Integer> listeEntier = new HashSet<Integer>();
+		// List<Integer> listeEntier = new LinkedList<Integer>();
+		System.out.println("------Debut-------" + listeEntier.getClass());
+		for (int i = 0; i < TAILLE_LISTE; i++) {
+			listeEntier.add(i);
+=====================================================================
+Found a 7 line (33 tokens) duplication in the following files: 
+Starting at line 52 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\ihm\Application.java
+Starting at line 55 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+						+ initBDD());
+		do {
+			choix = choixMenu();
+			switch (choix) {
+			case 1:
+				System.out.println("Voici toutes les notes");
+				System.out.println(getListeComplete());
+=====================================================================
+Found a 5 line (32 tokens) duplication in the following files: 
+Starting at line 52 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 58 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+			Planete planete = new Planete(m2, new Vecteur(0, 0), new Vecteur(0, 0));
+			listePlanete.add(planete);
+		}
+		// idem m3 et n3
+		for (int i = 1; i < n3 + 1; i++) {
+=====================================================================
+Found a 2 line (32 tokens) duplication in the following files: 
+Starting at line 37 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Planete.java
+Starting at line 39 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Planete.java
+
+				this.acc.y = this.acc.y - (G * a.planete.masse * (y - a.y)) * Math.pow(10, -23)
+						/ (v.norme() * v.norme() * v.norme());
+=====================================================================
+Found a 3 line (31 tokens) duplication in the following files: 
+Starting at line 12 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\collections\SetMonInteger.java
+Starting at line 16 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\collections\ListInteger.java
+
+		System.out.println("------Debut-------" + listeEntier.getClass());
+		for (int i = 0; i < TAILLE_LISTE; i++) {
+			listeEntier.add(i);
+=====================================================================
+Found a 2 line (30 tokens) duplication in the following files: 
+Starting at line 190 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 199 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+							&& -this.planete.vitesse.y < -Math.sqrt(2) * this.planete.vitesse.x) {
+						insereCorps(this.x - 2 * demilargeur, this.y - 2 * demilargeur, this.planete, a);
+=====================================================================
+Found a 6 line (29 tokens) duplication in the following files: 
+Starting at line 62 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\ihm\Application.java
+Starting at line 65 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+				enregistrerNote(n);
+				System.out.println(n + "  est enregistree !");
+				break;
+			case 3:
+				System.out.println("Calcul moyenne ponderee :");
+				int moyennePonderee = calculMoyennePonderee();
+=====================================================================
+Found a 2 line (29 tokens) duplication in the following files: 
+Starting at line 189 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 200 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+						insereCorps(this.x - 2 * demilargeur, this.y - 2 * demilargeur, this.planete, a);
+					} else if (this.planete.vitesse.y > -Math.sqrt(2) * this.planete.vitesse.x) {
+=====================================================================
+Found a 7 line (28 tokens) duplication in the following files: 
+Starting at line 67 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\ihm\Application.java
+Starting at line 70 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\decoupage\_non_decoupe\Application.java
+
+				int moyennePonderee = calculMoyennePonderee();
+				System.out.println("la moyenne ponderee  est "
+						+ moyennePonderee);
+				break;
+			case 4:
+				System.out.println("Calcul moyenne simple :");
+				int moyenneSimple = calculMoyenneSimple();
+=====================================================================
+Found a 7 line (27 tokens) duplication in the following files: 
+Starting at line 19 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\checkstyle\badMonSerial.java
+Starting at line 19 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\checkstyle\MonSerial.java
+
+		MonSerial ms = new MonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue, le traitement s'est arrêté ...");
+=====================================================================
+Found a 11 line (27 tokens) duplication in the following files: 
+Starting at line 17 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\demeter\Region.java
+Starting at line 26 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\demeter\Departement.java
+
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
+	}
+
+	public Set<Commune> getLesCommunes() {
+=====================================================================
+Found a 7 line (27 tokens) duplication in the following files: 
+Starting at line 21 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\refactoring\MonSerial.java
+Starting at line 19 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\checkstyle\badMonSerial.java
+
+		badMonSerial ms = new badMonSerial();
+		try {
+			ms.sauvegarder();
+			ms.charger();
+		} catch (MonappliException e) {
+			System.out
+					.println("Une erreur est intervenue,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz le traitement s'est arrêté ...");
+=====================================================================
+Found a 4 line (27 tokens) duplication in the following files: 
+Starting at line 105 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 117 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 131 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 141 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+						a.no = b;
+						return insereCorps(x, y, planete, a);
+					} else {
+						return insereCorps(x, y, planete, a.no);
+=====================================================================
+Found a 11 line (26 tokens) duplication in the following files: 
+Starting at line 33 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\demeter\Region.java
+Starting at line 42 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\demeter\Departement.java
+
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public Region getRegionGeo() {
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 190 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 201 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+					} else if (this.planete.vitesse.y > -Math.sqrt(2) * this.planete.vitesse.x) {
+						insereCorps(this.x, this.y + 2 * demilargeur, this.planete, a);
+=====================================================================
+Found a 6 line (26 tokens) duplication in the following files: 
+Starting at line 52 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 63 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+			Planete planete = new Planete(m3, new Vecteur(0, 0), new Vecteur(0, 0));
+			listePlanete.add(planete);
+		}
+		// on parcourt la liste de planete et on l'insere dans l'arbre avec x et
+		// y aléatoire
+		for (Planete p : listePlanete) {
+=====================================================================
+Found a 11 line (25 tokens) duplication in the following files: 
+Starting at line 33 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\demeter\Region.java
+Starting at line 40 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\demeter\Commune.java
+
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public Departement getDepartement() {
+=====================================================================
+Found a 9 line (25 tokens) duplication in the following files: 
+Starting at line 8 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\enumeration\TypeContrat.java
+Starting at line 16 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\enumeration\ETypeContrat.java
+
+	public int getCode() {
+		return code;
+	}
+
+	public void setCode(int code) {
+		this.code = code;
+	}
+
+	public String getLibelle() {
+=====================================================================
+Found a 7 line (25 tokens) duplication in the following files: 
+Starting at line 6 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\junit\PairImpair.java
+Starting at line 16 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\demo\javadoc\PairImpair.java
+
+public class PairImpair {
+	/**
+	 * la liste d'entier qui fait l'objet des diffrents type de comptage
+	 */
+	private List<Integer> mesEntiers = new ArrayList<Integer>();
+
+	public PairImpair(List<Integer> mesEntiers) {
+=====================================================================
+Found a 1 line (25 tokens) duplication in the following files: 
+Starting at line 190 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 204 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+							&& this.planete.vitesse.y < -Math.sqrt(2) * this.planete.vitesse.x) {
+=====================================================================
+Found a 2 line (25 tokens) duplication in the following files: 
+Starting at line 182 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+Starting at line 190 of D:\dq9a1g\Private\Personnel\formations\formation_IGPDE_BPJ\5-workspace\FormationBPJ\src\main\java\tp\pmd\Arbre.java
+
+					} else if (this.planete.vitesse.y < -Math.sqrt(2) * this.planete.vitesse.x) {
+						insereCorps(this.x, this.y - 2 * demilargeur, this.planete, a);

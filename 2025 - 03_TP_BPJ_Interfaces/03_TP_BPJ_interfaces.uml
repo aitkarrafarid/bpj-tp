@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_dfGOAN8sEeiPB9px9EqtJg" name="NewModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="_gB13kN8sEeiPB9px9EqtJg" name="tp_decoupage">
+    <packagedElement xmi:type="uml:Package" xmi:id="_B65qcN8yEeiPB9px9EqtJg" name="couche_presentation">
+      <packagedElement xmi:type="uml:Class" xmi:id="_UXxOYN8yEeiPB9px9EqtJg" name="Application" visibility="public">
+        <ownedAttribute xmi:id="_FRR69N8zEeiPB9px9EqtJg" name="" type="_Y_tp4N8yEeiPB9px9EqtJg" association="_FRR68N8zEeiPB9px9EqtJg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FRR69d8zEeiPB9px9EqtJg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FRR69t8zEeiPB9px9EqtJg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FRR68N8zEeiPB9px9EqtJg" name="noteService" memberEnd="_FRR68d8zEeiPB9px9EqtJg _FRR69N8zEeiPB9px9EqtJg">
+        <ownedEnd xmi:id="_FRR68d8zEeiPB9px9EqtJg" name="" type="_UXxOYN8yEeiPB9px9EqtJg" association="_FRR68N8zEeiPB9px9EqtJg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FRR68t8zEeiPB9px9EqtJg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FRR6898zEeiPB9px9EqtJg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Eaf5YN8yEeiPB9px9EqtJg" name="couche_persistance">
+      <packagedElement xmi:type="uml:Class" xmi:id="_dFt18N8yEeiPB9px9EqtJg" name="NoteDao" visibility="public">
+        <generalization xmi:id="_0DTc8N87EeiPB9px9EqtJg" general="_t_364N87EeiPB9px9EqtJg"/>
+        <ownedAttribute xmi:id="_nz6eBN8yEeiPB9px9EqtJg" name="" type="_esF94N8yEeiPB9px9EqtJg" association="_nz6eAN8yEeiPB9px9EqtJg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nz6eBd8yEeiPB9px9EqtJg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nz6eBt8yEeiPB9px9EqtJg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_esF94N8yEeiPB9px9EqtJg" name="Connexion" visibility="public"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_nz6eAN8yEeiPB9px9EqtJg" name="connexion" memberEnd="_nz6eAd8yEeiPB9px9EqtJg _nz6eBN8yEeiPB9px9EqtJg">
+        <ownedEnd xmi:id="_nz6eAd8yEeiPB9px9EqtJg" name="" type="_dFt18N8yEeiPB9px9EqtJg" association="_nz6eAN8yEeiPB9px9EqtJg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nz6eAt8yEeiPB9px9EqtJg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nz6eA98yEeiPB9px9EqtJg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_t_364N87EeiPB9px9EqtJg" name="INoteDao" visibility="public">
+        <ownedOperation xmi:id="__ZAw8N87EeiPB9px9EqtJg" name="initBDD"/>
+        <ownedOperation xmi:id="_BxDmYN88EeiPB9px9EqtJg" name="enregistrerNote"/>
+        <ownedOperation xmi:id="_DctP4N88EeiPB9px9EqtJg" name="getListeComplete"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1pmsYN87EeiPB9px9EqtJg" name="NoteDaoMock" visibility="public">
+        <generalization xmi:id="_3qRjoN87EeiPB9px9EqtJg" general="_t_364N87EeiPB9px9EqtJg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KBMcIN8yEeiPB9px9EqtJg" name="couche_data">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WNkSYN8yEeiPB9px9EqtJg" name="Note" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NmDC8N8yEeiPB9px9EqtJg" name="couche_service">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y_tp4N8yEeiPB9px9EqtJg" name="NoteService" visibility="public">
+        <ownedAttribute xmi:id="_i3C7ZN8yEeiPB9px9EqtJg" name="" type="_t_364N87EeiPB9px9EqtJg" association="_i3C7YN8yEeiPB9px9EqtJg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i3C7Zd8yEeiPB9px9EqtJg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i3C7Zt8yEeiPB9px9EqtJg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_i3C7YN8yEeiPB9px9EqtJg" name="noteDao" memberEnd="_i3C7Yd8yEeiPB9px9EqtJg _i3C7ZN8yEeiPB9px9EqtJg">
+        <ownedEnd xmi:id="_i3C7Yd8yEeiPB9px9EqtJg" name="" type="_Y_tp4N8yEeiPB9px9EqtJg" association="_i3C7YN8yEeiPB9px9EqtJg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i3C7Yt8yEeiPB9px9EqtJg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i3C7Y98yEeiPB9px9EqtJg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Y5q_0HYuEem7Dbad7NNj5A" name="noteDao" memberEnd="_Y5rm4HYuEem7Dbad7NNj5A _Y5rm43YuEem7Dbad7NNj5A" navigableOwnedEnd="_Y5rm43YuEem7Dbad7NNj5A">
+        <ownedEnd xmi:id="_Y5rm4HYuEem7Dbad7NNj5A" name="" type="_Y_tp4N8yEeiPB9px9EqtJg" association="_Y5q_0HYuEem7Dbad7NNj5A">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y5rm4XYuEem7Dbad7NNj5A"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y5rm4nYuEem7Dbad7NNj5A" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_Y5rm43YuEem7Dbad7NNj5A" name="" type="_dFt18N8yEeiPB9px9EqtJg" association="_Y5q_0HYuEem7Dbad7NNj5A">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y5rm5HYuEem7Dbad7NNj5A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y5rm5XYuEem7Dbad7NNj5A" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,2 @@
+2017-04-28 12:51:25,083 ERROR - DemoLoadFileLog4j.java:29   - ERROR - Debut du main
+2017-04-28 12:51:25,099 FATAL - DemoLoadFileLog4j.java:30   - FATAL - Debut du main

@@ -1,0 +1,2 @@
+Cf. "Properties" du projet (Alt + Entrée) : PMD - Utiliser l'ensemble de règles configuré dans un fichier du projet
+Cf. le fichier de paramétrage PMD : conf/ruleset.xml

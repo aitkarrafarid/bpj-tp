@@ -1,0 +1,310 @@
+src/tp/pmd/Arbre.java:5:	Header comments are required
+src/tp/pmd/Arbre.java:5:	The class 'Arbre' has a Modified Cyclomatic Complexity of 7 (Highest = 19).
+src/tp/pmd/Arbre.java:5:	The class 'Arbre' has a Standard Cyclomatic Complexity of 7 (Highest = 19).
+src/tp/pmd/Arbre.java:7:	Field comments are required
+src/tp/pmd/Arbre.java:8:	Field comments are required
+src/tp/pmd/Arbre.java:9:	Field comments are required
+src/tp/pmd/Arbre.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:9:	To avoid mistakes add a comment at the beginning of the planete field if you want a default access modifier
+src/tp/pmd/Arbre.java:9:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:10:	Field comments are required
+src/tp/pmd/Arbre.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:10:	To avoid mistakes add a comment at the beginning of the bplanete field if you want a default access modifier
+src/tp/pmd/Arbre.java:10:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:11:	Field comments are required
+src/tp/pmd/Arbre.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:11:	To avoid mistakes add a comment at the beginning of the masse field if you want a default access modifier
+src/tp/pmd/Arbre.java:11:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:12:	Avoid variables with short names like x
+src/tp/pmd/Arbre.java:12:	Avoid variables with short names like y
+src/tp/pmd/Arbre.java:12:	Field comments are required
+src/tp/pmd/Arbre.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:12:	To avoid mistakes add a comment at the beginning of the x field if you want a default access modifier
+src/tp/pmd/Arbre.java:12:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:13:	Field comments are required
+src/tp/pmd/Arbre.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:13:	To avoid mistakes add a comment at the beginning of the estFeuille field if you want a default access modifier
+src/tp/pmd/Arbre.java:13:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:14:	Avoid variables with short names like ne
+src/tp/pmd/Arbre.java:14:	Avoid variables with short names like no
+src/tp/pmd/Arbre.java:14:	Avoid variables with short names like se
+src/tp/pmd/Arbre.java:14:	Avoid variables with short names like so
+src/tp/pmd/Arbre.java:14:	Field comments are required
+src/tp/pmd/Arbre.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:14:	To avoid mistakes add a comment at the beginning of the so field if you want a default access modifier
+src/tp/pmd/Arbre.java:14:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:15:	Field comments are required
+src/tp/pmd/Arbre.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Arbre.java:15:	To avoid mistakes add a comment at the beginning of the profondeur field if you want a default access modifier
+src/tp/pmd/Arbre.java:15:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:18:	Avoid variables with short names like x
+src/tp/pmd/Arbre.java:18:	Avoid variables with short names like y
+src/tp/pmd/Arbre.java:18:	Parameter 'x' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:18:	Parameter 'y' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:18:	To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
+src/tp/pmd/Arbre.java:25:	Avoid variables with short names like x
+src/tp/pmd/Arbre.java:25:	Avoid variables with short names like y
+src/tp/pmd/Arbre.java:25:	Parameter 'planete' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:25:	Parameter 'x' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:25:	Parameter 'y' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:25:	To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
+src/tp/pmd/Arbre.java:34:	Avoid variables with short names like ne
+src/tp/pmd/Arbre.java:34:	Avoid variables with short names like no
+src/tp/pmd/Arbre.java:34:	Avoid variables with short names like se
+src/tp/pmd/Arbre.java:34:	Avoid variables with short names like so
+src/tp/pmd/Arbre.java:34:	Avoid variables with short names like x
+src/tp/pmd/Arbre.java:34:	Avoid variables with short names like y
+src/tp/pmd/Arbre.java:34:	Parameter 'masse' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	Parameter 'ne' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	Parameter 'no' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	Parameter 'profondeur' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	Parameter 'se' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	Parameter 'so' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	Parameter 'x' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	Parameter 'y' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:34:	To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
+src/tp/pmd/Arbre.java:47:	Avoid variables with short names like a
+src/tp/pmd/Arbre.java:47:	Avoid variables with short names like m1
+src/tp/pmd/Arbre.java:47:	Avoid variables with short names like m2
+src/tp/pmd/Arbre.java:47:	Avoid variables with short names like m3
+src/tp/pmd/Arbre.java:47:	Avoid variables with short names like n1
+src/tp/pmd/Arbre.java:47:	Avoid variables with short names like n2
+src/tp/pmd/Arbre.java:47:	Avoid variables with short names like n3
+src/tp/pmd/Arbre.java:47:	Found 'UR'-anomaly for variable 'p' (lines '47'-'88').
+src/tp/pmd/Arbre.java:47:	Parameter 'a' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	Parameter 'm1' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	Parameter 'm2' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	Parameter 'm3' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	Parameter 'maxcoordonnees' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	Parameter 'n1' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	Parameter 'n2' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	Parameter 'n3' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:47:	The method 'insereCorpsAleatoire(Arbre, int, int, int, double, double, double, int)' has a NCSS line count of 20.
+src/tp/pmd/Arbre.java:47:	To avoid mistakes add a comment at the beginning of the insereCorpsAleatoire method if you want a default access modifier
+src/tp/pmd/Arbre.java:47:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:49:	Local variable 'listePlanete' could be declared final
+src/tp/pmd/Arbre.java:52:	Avoid instantiating new objects inside loops
+src/tp/pmd/Arbre.java:52:	Local variable 'planete' could be declared final
+src/tp/pmd/Arbre.java:59:	Avoid instantiating new objects inside loops
+src/tp/pmd/Arbre.java:59:	Local variable 'planete' could be declared final
+src/tp/pmd/Arbre.java:65:	Avoid instantiating new objects inside loops
+src/tp/pmd/Arbre.java:65:	Local variable 'planete' could be declared final
+src/tp/pmd/Arbre.java:70:	Local variable 'p' could be declared final
+src/tp/pmd/Arbre.java:73:	Local variable 'xAlea' could be declared final
+src/tp/pmd/Arbre.java:75:	Avoid excessively long variable names like xAleamaxcoordonnees
+src/tp/pmd/Arbre.java:75:	Local variable 'xAleamaxcoordonnees' could be declared final
+src/tp/pmd/Arbre.java:79:	Avoid variables with short names like x
+src/tp/pmd/Arbre.java:79:	Local variable 'x' could be declared final
+src/tp/pmd/Arbre.java:83:	Local variable 'yAlea' could be declared final
+src/tp/pmd/Arbre.java:84:	Avoid excessively long variable names like yAleaMaxCoordonnees
+src/tp/pmd/Arbre.java:84:	Local variable 'yAleaMaxCoordonnees' could be declared final
+src/tp/pmd/Arbre.java:87:	Avoid variables with short names like y
+src/tp/pmd/Arbre.java:87:	Local variable 'y' could be declared final
+src/tp/pmd/Arbre.java:103:	Avoid really long methods.
+src/tp/pmd/Arbre.java:103:	Avoid variables with short names like a
+src/tp/pmd/Arbre.java:103:	Avoid variables with short names like x
+src/tp/pmd/Arbre.java:103:	Avoid variables with short names like y
+src/tp/pmd/Arbre.java:103:	Parameter 'a' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:103:	Parameter 'planete' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:103:	Parameter 'x' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:103:	Parameter 'y' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:103:	The method 'insereCorps' has a Modified Cyclomatic Complexity of 12.
+src/tp/pmd/Arbre.java:103:	The method 'insereCorps' has a Standard Cyclomatic Complexity of 12.
+src/tp/pmd/Arbre.java:103:	The method 'insereCorps(double, double, Planete, Arbre)' has a NCSS line count of 43.
+src/tp/pmd/Arbre.java:103:	The method 'insereCorps(double, double, Planete, Arbre)' has a cyclomatic complexity of 13.
+src/tp/pmd/Arbre.java:103:	To avoid mistakes add a comment at the beginning of the insereCorps method if you want a default access modifier
+src/tp/pmd/Arbre.java:103:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Arbre.java:107:	System.out.println is used
+src/tp/pmd/Arbre.java:115:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:123:	Avoid variables with short names like b
+src/tp/pmd/Arbre.java:123:	Local variable 'b' could be declared final
+src/tp/pmd/Arbre.java:135:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:140:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:145:	Avoid variables with short names like b
+src/tp/pmd/Arbre.java:145:	Local variable 'b' could be declared final
+src/tp/pmd/Arbre.java:157:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:160:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:169:	Avoid variables with short names like b
+src/tp/pmd/Arbre.java:169:	Local variable 'b' could be declared final
+src/tp/pmd/Arbre.java:181:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:184:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:189:	Avoid variables with short names like b
+src/tp/pmd/Arbre.java:189:	Local variable 'b' could be declared final
+src/tp/pmd/Arbre.java:201:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:204:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Arbre.java:210:	System.out.println is used
+src/tp/pmd/Arbre.java:219:	Avoid variables with short names like a
+src/tp/pmd/Arbre.java:219:	Parameter 'a' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:219:	Public method and constructor comments are required
+src/tp/pmd/Arbre.java:219:	The method 'calculToutesVitesses(Arbre)' has a NCSS line count of 13.
+src/tp/pmd/Arbre.java:221:	Potential violation of Law of Demeter (static property access)
+src/tp/pmd/Arbre.java:222:	Potential violation of Law of Demeter (static property access)
+src/tp/pmd/Arbre.java:227:	Avoid using if statements without curly braces
+src/tp/pmd/Arbre.java:228:	This statement should have braces
+src/tp/pmd/Arbre.java:229:	Avoid using if statements without curly braces
+src/tp/pmd/Arbre.java:230:	This statement should have braces
+src/tp/pmd/Arbre.java:231:	Avoid using if statements without curly braces
+src/tp/pmd/Arbre.java:232:	This statement should have braces
+src/tp/pmd/Arbre.java:233:	Avoid using if statements without curly braces
+src/tp/pmd/Arbre.java:234:	This statement should have braces
+src/tp/pmd/Arbre.java:238:	Avoid really long methods.
+src/tp/pmd/Arbre.java:238:	Avoid variables with short names like a
+src/tp/pmd/Arbre.java:238:	Parameter 'a' is not assigned and could be declared final
+src/tp/pmd/Arbre.java:238:	Public method and constructor comments are required
+src/tp/pmd/Arbre.java:238:	The method 'nouvellePosition' has a Modified Cyclomatic Complexity of 19.
+src/tp/pmd/Arbre.java:238:	The method 'nouvellePosition' has a Standard Cyclomatic Complexity of 19.
+src/tp/pmd/Arbre.java:238:	The method 'nouvellePosition(Arbre)' has a NCSS line count of 52.
+src/tp/pmd/Arbre.java:238:	The method 'nouvellePosition(Arbre)' has a cyclomatic complexity of 24.
+src/tp/pmd/Arbre.java:243:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:243:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:243:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:251:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:251:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:251:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:264:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:264:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:264:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:279:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:279:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:279:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:291:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:291:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:291:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:300:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:300:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:300:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:312:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:312:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:312:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:337:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:337:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:337:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:350:	System.out.println is used
+src/tp/pmd/Arbre.java:351:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:351:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:351:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:362:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:362:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:362:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:373:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:373:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:373:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:385:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:385:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Arbre.java:385:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Fenetre.java:12:	Header comments are required
+src/tp/pmd/Fenetre.java:19:	Avoid variables with short names like a
+src/tp/pmd/Fenetre.java:19:	Field comments are required
+src/tp/pmd/Fenetre.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Fenetre.java:19:	To avoid mistakes add a comment at the beginning of the a field if you want a default access modifier
+src/tp/pmd/Fenetre.java:19:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Fenetre.java:24:	Field comments are required
+src/tp/pmd/Fenetre.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Fenetre.java:25:	Field comments are required
+src/tp/pmd/Fenetre.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Fenetre.java:25:	Private field 'bouton' could be made final; it is only initialized in the declaration or constructor.
+src/tp/pmd/Fenetre.java:27:	It is a good practice to call super() in a constructor
+src/tp/pmd/Fenetre.java:27:	Public method and constructor comments are required
+src/tp/pmd/Fenetre.java:27:	The constructor 'Fenetre()' has a NCSS line count of 14.
+src/tp/pmd/Fenetre.java:34:	Local variable 'south' could be declared final
+src/tp/pmd/Fenetre.java:59:	Avoid using short method names
+src/tp/pmd/Fenetre.java:61:	Avoid instantiating new objects inside loops
+src/tp/pmd/Fenetre.java:61:	Avoid variables with short names like b
+src/tp/pmd/Fenetre.java:61:	Local variable 'b' could be declared final
+src/tp/pmd/Fenetre.java:62:	Potential violation of Law of Demeter (static property access)
+src/tp/pmd/Fenetre.java:63:	Potential violation of Law of Demeter (static property access)
+src/tp/pmd/Fenetre.java:70:	Avoid printStackTrace(); use a logger call instead.
+src/tp/pmd/Fenetre.java:76:	Parameter 'arg0' is not assigned and could be declared final
+src/tp/pmd/Fenetre.java:76:	Public method and constructor comments are required
+src/tp/pmd/Fenetre.java:77:	Avoid variables with short names like b
+src/tp/pmd/Fenetre.java:77:	Local variable 'b' could be declared final
+src/tp/pmd/Fenetre.java:78:	Potential violation of Law of Demeter (static property access)
+src/tp/pmd/Fenetre.java:79:	Potential violation of Law of Demeter (static property access)
+src/tp/pmd/Fenetre.java:84:	Parameter 'args' is not assigned and could be declared final
+src/tp/pmd/Fenetre.java:84:	Public method and constructor comments are required
+src/tp/pmd/Grille.java:9:	Header comments are required
+src/tp/pmd/Grille.java:15:	Field comments are required
+src/tp/pmd/Grille.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Grille.java:15:	To avoid mistakes add a comment at the beginning of the diametre field if you want a default access modifier
+src/tp/pmd/Grille.java:15:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Grille.java:16:	Avoid variables with short names like a
+src/tp/pmd/Grille.java:16:	Field comments are required
+src/tp/pmd/Grille.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Grille.java:18:	Avoid variables with short names like a
+src/tp/pmd/Grille.java:18:	It is a good practice to call super() in a constructor
+src/tp/pmd/Grille.java:18:	Parameter 'a' is not assigned and could be declared final
+src/tp/pmd/Grille.java:18:	To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
+src/tp/pmd/Grille.java:22:	Avoid variables with short names like g
+src/tp/pmd/Grille.java:22:	Parameter 'g' is not assigned and could be declared final
+src/tp/pmd/Grille.java:22:	Public method and constructor comments are required
+src/tp/pmd/Grille.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Grille.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Grille.java:46:	Avoid variables with short names like b
+src/tp/pmd/Grille.java:46:	Avoid variables with short names like g
+src/tp/pmd/Grille.java:46:	Parameter 'b' is not assigned and could be declared final
+src/tp/pmd/Grille.java:46:	Parameter 'g' is not assigned and could be declared final
+src/tp/pmd/Grille.java:46:	Public method and constructor comments are required
+src/tp/pmd/Grille.java:49:	Avoid unnecessary comparisons in boolean expressions
+src/tp/pmd/Grille.java:50:	Potential violation of Law of Demeter (static property access)
+src/tp/pmd/Planete.java:5:	Header comments are required
+src/tp/pmd/Planete.java:7:	Avoid variables with short names like G
+src/tp/pmd/Planete.java:7:	Field comments are required
+src/tp/pmd/Planete.java:7:	The field name indicates a constant but its modifiers do not
+src/tp/pmd/Planete.java:7:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/tp/pmd/Planete.java:8:	Field comments are required
+src/tp/pmd/Planete.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Planete.java:8:	To avoid mistakes add a comment at the beginning of the masse field if you want a default access modifier
+src/tp/pmd/Planete.java:8:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Planete.java:10:	Field comments are required
+src/tp/pmd/Planete.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Planete.java:10:	To avoid mistakes add a comment at the beginning of the vitesse field if you want a default access modifier
+src/tp/pmd/Planete.java:10:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Planete.java:11:	Field comments are required
+src/tp/pmd/Planete.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Planete.java:11:	To avoid mistakes add a comment at the beginning of the acc field if you want a default access modifier
+src/tp/pmd/Planete.java:11:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Planete.java:12:	Field comments are required
+src/tp/pmd/Planete.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Planete.java:12:	To avoid mistakes add a comment at the beginning of the col field if you want a default access modifier
+src/tp/pmd/Planete.java:12:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Planete.java:14:	Parameter 'acc' is not assigned and could be declared final
+src/tp/pmd/Planete.java:14:	Parameter 'masse' is not assigned and could be declared final
+src/tp/pmd/Planete.java:14:	Parameter 'vitesse' is not assigned and could be declared final
+src/tp/pmd/Planete.java:14:	To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
+src/tp/pmd/Planete.java:21:	Public method and constructor comments are required
+src/tp/pmd/Planete.java:24:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Planete.java:28:	A method should have only one exit point, and that should be the last statement in the method
+src/tp/pmd/Planete.java:37:	Avoid variables with short names like a
+src/tp/pmd/Planete.java:37:	Avoid variables with short names like x
+src/tp/pmd/Planete.java:37:	Avoid variables with short names like y
+src/tp/pmd/Planete.java:37:	Parameter 'a' is not assigned and could be declared final
+src/tp/pmd/Planete.java:37:	Parameter 'x' is not assigned and could be declared final
+src/tp/pmd/Planete.java:37:	Parameter 'y' is not assigned and could be declared final
+src/tp/pmd/Planete.java:37:	Public method and constructor comments are required
+src/tp/pmd/Planete.java:37:	The method 'gravitation(Arbre, double, double)' has a NCSS line count of 15.
+src/tp/pmd/Planete.java:42:	Avoid variables with short names like v
+src/tp/pmd/Planete.java:42:	Local variable 'v' could be declared final
+src/tp/pmd/Planete.java:86:	Public method and constructor comments are required
+src/tp/pmd/Vecteur.java:3:	Header comments are required
+src/tp/pmd/Vecteur.java:5:	Avoid variables with short names like x
+src/tp/pmd/Vecteur.java:5:	Avoid variables with short names like y
+src/tp/pmd/Vecteur.java:5:	Field comments are required
+src/tp/pmd/Vecteur.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Vecteur.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/tp/pmd/Vecteur.java:5:	To avoid mistakes add a comment at the beginning of the x field if you want a default access modifier
+src/tp/pmd/Vecteur.java:5:	Use explicit scoping instead of the default package private level
+src/tp/pmd/Vecteur.java:12:	Public method and constructor comments are required
+src/tp/pmd/Vecteur.java:13:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Vecteur.java:13:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Vecteur.java:13:	Potential violation of Law of Demeter (method chain calls)
+src/tp/pmd/Vecteur.java:13:	Potential violation of Law of Demeter (method chain calls)

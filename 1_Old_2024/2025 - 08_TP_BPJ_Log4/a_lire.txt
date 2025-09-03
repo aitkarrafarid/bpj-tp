@@ -1,0 +1,4 @@
+Cf. Run configuration "TpLog4j avec log dans le répertoire spécifié en -D" (-D argument)
+Cf. résultat dans "log/debugTPLog4j_runFromEclipse.txt"
+
+Cf. exécution depuis un JAR : batch/run.bat
