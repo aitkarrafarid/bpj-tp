@@ -12,13 +12,11 @@ public class ThreadEstimation {
         System.out.println("Tas/Heap totale      : " + (runtime.totalMemory() / (1024.0 * 1024.0 )) + " Mo");
         System.out.println("Tas/Heap disponible  : " + (runtime.freeMemory() / (1024.0 * 1024.0 )) + " Mo");
         System.out.println("Tas/Heap utilisé     : " + (heapUsed / (1024 * 1024)) + " Mo");
-
-        long threadStackSize = stackValue; // Hypothèse : 1 mo (1024 * 1024) par Virtual Thread
-        
+     
         System.out.println("---------------------------");
-        System.out.println("Pile/Stack (-Xss)           : " + (threadStackSize / 1024) + " ko");
+        System.out.println("Pile/Stack (-Xss)           : " + (stackValue) + " ko");
 
-        long estimatedMaxThreads = heapMax / threadStackSize;
+        long estimatedMaxThreads = (heapMax / (1024)) / stackValue;
 
         System.out.println("---------------------------");
         System.out.println("Estimation du nombre de threads disponibles : " + estimatedMaxThreads);

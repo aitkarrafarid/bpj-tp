@@ -9,7 +9,6 @@ public class BenchmarkThread {
         System.gc(); // Nettoyage mémoire
         Thread.sleep(100);
         long memAvant = memUtilisee();
-        long debut = System.currentTimeMillis();
         try (ExecutorService executor = fournisseur.call()) {
             for (int i = 0; i < nbTaches; i++) {
                 executor.submit(() -> {
@@ -21,9 +20,7 @@ public class BenchmarkThread {
                 });
             }
         }
-        long fin = System.currentTimeMillis();
         long memApres = memUtilisee();
-        System.out.println("Durée : " + (fin - debut) + " ms");
         System.out.println("Mémoire utilisée : " + (memApres - memAvant) + " Mo");
     }
     static long memUtilisee() {
