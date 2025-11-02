@@ -1,0 +1,8 @@
+      long startMem = Runtime.getRuntime().freeMemory();
+      long startTime = System.currentTimeMillis();
+      // Trt à mesurer
+      long stopMem = Runtime.getRuntime().freeMemory();
+      long stopTime = System.currentTimeMillis();
+      long deltaTime = stopTime - startTime;
+      long deltaMem = stopMem - startMem;
+      System.out.println("durée=" + deltaTime + "ms - occupation=" + deltaMem + "bytes");
