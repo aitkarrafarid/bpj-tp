@@ -14,11 +14,11 @@ public class NoteIhmMock implements INoteIhm {
       if (DATA_TEST_saisirNotesPonderee_CN.equals(nomTest)) {
          // Initialiser les données
          retour = new NoteIhmMock();
-         retour._tabNote = new Note[] { new Note("Maths", 12, 4), new Note("Fran�ais", 10, 4) };
+         retour._tabNote = new Note[] { new Note("Maths", 12, 4), new Note("Francais", 10, 4) };
 
       }
       else {
-         throw new IllegalArgumentException("Cas non pr�vu pour nomTest="
+         throw new IllegalArgumentException("Cas non prevu pour nomTest="
             + nomTest);
       }
 

@@ -4,9 +4,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import socle.cours.performance.Chrono;
-import tp_virtualthread.tp1.ThreadEstimation;
-import tp_virtualthread.tp2.BenchmarkThread;
+import socle.Chrono;
+import socle.tp1.ThreadEstimation;
+import socle.tp2.BenchmarkThread;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
 public class BenchmarkThreadTest {
 
 // Vm arguments : -ea -Xmx512m
-   private Chrono _Chrono;  
+   private Chrono _Chrono;
 
    @Test
    @DisplayName("SimpleThreadEstimation")

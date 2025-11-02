@@ -17,7 +17,7 @@ public class MathsUtilsTest {
    }
 
    /**
-    * Cas d'exception : tester la division par zéro.
+    * Cas d'exception : tester la division par zero.
     */
    @Test(expected = DivisionByZeroException.class)
    public void dividedBy_CE() {
