@@ -2,7 +2,7 @@ package socle.tp1;
 
 public class ThreadEstimation {
 
-    public static void getInfosJVM(String threadType, long stackValue){
+    public static long getInfosJVM(String threadType, long stackValue){
         Runtime runtime = Runtime.getRuntime();
         long heapUsed = runtime.totalMemory() - runtime.freeMemory();
         long heapMax = runtime.maxMemory();
@@ -21,6 +21,6 @@ public class ThreadEstimation {
         System.out.println("---------------------------");
         System.out.println("Estimation du nombre de threads disponibles : " + estimatedMaxThreads);
         System.out.println("\n##############################################################################\n");
-
+        return estimatedMaxThreads;
     }
 }

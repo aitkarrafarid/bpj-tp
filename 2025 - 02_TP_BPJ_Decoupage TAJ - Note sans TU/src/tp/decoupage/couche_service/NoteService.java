@@ -1,52 +1,42 @@
 package tp.decoupage.couche_service;
 
-import java.sql.SQLException;
-import java.util.List;
-
 import tp.decoupage.couche_data.Note;
-import tp.decoupage.couche_persistance.Connexion;
 import tp.decoupage.couche_persistance.NoteDao;
 
+import java.util.List;
+
 public class NoteService {
-   private NoteDao noteDao = new NoteDao();
 
-   public List<Note> getListeComplete() throws ClassNotFoundException, SQLException {
-      return noteDao.getListeComplete();
-   }
+    private NoteDao noteDao = new NoteDao();
 
-   public int calculMoyennePonderee() throws ClassNotFoundException, SQLException {
-      List<Note> toutesLesNotes = noteDao.getListeComplete();
-      int sommeProduits = 0, sommeCoef = 0;
-      for (Note p : toutesLesNotes) {
-         sommeProduits +=
-            p.getNote()
-               * p.getCoefficient();
-         sommeCoef += p.getCoefficient();
-      }
-      return (sommeProduits
-         / sommeCoef);
-   }
+    public void initBDD(){
+        noteDao.initBDD();
+    }
 
-   public int calculMoyenneSimple() throws ClassNotFoundException, SQLException {
-      List<Note> toutesLesNotes = noteDao.getListeComplete();
-      int sommeNotes = 0;
-      for (Note p : toutesLesNotes) {
-         sommeNotes += p.getNote();
-      }
-      return (sommeNotes
-         / toutesLesNotes.size());
-   }
+    public List<Note> getListeComplete() {
+        return noteDao.getListeComplete();
+    }
 
-   public void enregistrerNote(Note n) throws ClassNotFoundException, SQLException {
-      noteDao.enregistrerNote(n);
-   }
+    public void enregistrerNote(Note n) {
+        noteDao.enregistrerNote(n);
+    }
 
-   public int initBDD() throws ClassNotFoundException, SQLException {
-      return noteDao.initBDD();
-   }
+    public int calculMoyennePonderee() {
+        List<Note> toutesLesNotes = this.getListeComplete();
+        int sommeProduits = 0, sommeCoef = 0;
+        for (Note p : toutesLesNotes) {
+            sommeProduits += p.getNote() * p.getCoefficient();
+            sommeCoef += p.getCoefficient();
+        }
+        return (sommeProduits / sommeCoef);
+    }
 
-   public void close() throws SQLException {
-      Connexion.close();
-   }
-
+    public int calculMoyenneSimple() {
+		List<Note> toutesLesNotes = this.getListeComplete();
+		int sommeNotes = 0;
+		for (Note p : toutesLesNotes) {
+			sommeNotes += p.getNote();
+		}
+		return (sommeNotes / toutesLesNotes.size());
+    }
 }
